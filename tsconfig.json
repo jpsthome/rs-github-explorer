@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],                                        
+    "allowJs": true,                                   //Permite que tenha arquivos JS tbm no projeto
+    "jsx": "react-jsx",                                //Entende que o projeto vai ter o JSX do React
+    "noEmit": true,                                    
+    "strict": true,                                    //modo strict javascript  
+    "moduleResolution": "node",                        //adiciona possibilidade dE importar arquivo json
+    "resolveJsonModule": true,                        
+    "isolatedModules": true,                          
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                             
+    "skipLibCheck": true,                            
+    "forceConsistentCasingInFileNames": true, 
+  },
+  "include" : ["src"]                                   //informa aonde o código da aplicação deve ficar
+}
